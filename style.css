@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan&family=Rubik+Burned&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  font-family: "Noto Sans Avestan", sans-serif;
+}
+
+#game {
+  display: none;
+}
+
+#home-container {
+  text-align: center;
+}
+
+#title {
+  font-size: 10rem;
+  font-family: "Rubik Burned", "Arial", cursive;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  padding: 0.7rem 3rem;
+  font-size: 2rem;
+  background-color: white;
+  border: 5px solid black;
+  cursor: pointer;
+  font-family: "Noto Sans Avestan", sans-serif;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-bottom: 5rem;
+}
+
+.img {
+  width: 200px;
+  height: 242px;
+}
+
+.word {
+  font-size: 4rem;
+  letter-spacing: 2rem;
+}
+
+#keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyBtn {
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 0.7rem;
+  border: 2px solid rgba(0, 0, 0, 0.492);
+  font-size: 1.5rem;
+}
+
+.keyBtn:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+#wrong-letters {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+#final-container {
+  text-align: center;
+}
+
+#final-message {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+#final-word {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.hidden {
+  display: none !important;
+}
